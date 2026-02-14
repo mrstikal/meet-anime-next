@@ -1,0 +1,13 @@
+@layer base {
+    body {
+        @apply font-sans text-zinc-300 tracking-wide bg-zinc-950 px-8 overflow-auto;
+    }
+
+    button {
+        @apply cursor-pointer;
+    }
+
+    button:disabled {
+        @apply cursor-not-allowed opacity-30;
+    }
+}

@@ -1,0 +1,1 @@
+export type GenreSelectItem = { label: string; value: string };

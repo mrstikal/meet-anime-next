@@ -1,0 +1,20 @@
+@layer utilities {
+    .hamburger-menu {
+        @apply flex flex-col gap-1.5 ml-auto md:hidden cursor-pointer;
+    }
+
+    .menu {
+        @apply md:flex absolute md:relative gap-4 right-8 md:right-0 top-15 md:top-0 bg-zinc-900 md:bg-transparent py-2 px-6 md:p-0 z-10;
+    }
+
+    .menu-link {
+        @apply text-zinc-300 hover:text-zinc-200 whitespace-nowrap block text-right md:text-left;
+        @apply py-2 md:py-0;
+    }
+
+    .menu-link-active {
+        @apply text-zinc-200 underline decoration-2 underline-offset-5 md:decoration-3 md:underline-offset-9 decoration-zinc-500;
+        @apply whitespace-nowrap block text-right md:text-left;
+        @apply py-2 md:py-0;
+    }
+}
