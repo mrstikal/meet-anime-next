@@ -1,5 +1,7 @@
 # Meet Anime
 
+## See it live at https://meet-anime-next.vercel.app/
+
 ## Yeah, I love anime.
 And I found out that there is an (unofficial but functional) Jikan API for MyAnimeList.
 So I created this small tech demo for browsing anime data.
